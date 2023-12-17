@@ -1,0 +1,157 @@
+body{
+    margin:0px;
+    background-color: rgb(41, 58, 63);
+    
+    }
+    header{
+       
+        display: flex;
+        justify-content: space-around;
+    }
+    .p{
+        color: #fff;
+    }
+    .cartes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .Album{
+        height: 35em;
+        margin-top: 30em;
+       
+        border-color: white;
+    }
+    
+    
+    #logo{
+        margin-top: 20px;
+        display: inline-flex;
+        align-items: center;
+        background-color: aliceblue;
+    }
+    
+    nav ul{
+        display: flex;
+        align-content: center;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .parara1{
+
+color: #fff;
+margin: 20px 0 0 50px;
+font-size: x-large;
+    }
+    .son{
+
+
+margin: 20px 0 0 50px;
+line-height: 75px;
+    }
+    .son1{
+display: flex;
+font-weight: bold;
+        color: #fff;
+        align-items: center;
+        gap: 20px;
+    }
+.j5{
+
+height: 400px;
+width: 500px;
+background-image: url(../Ressources/images/j5.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 50px;
+transition: filter 0.3s ease;
+}
+
+.j5:hover{
+    filter: brightness(70%);
+  
+  
+  }
+.column1{
+
+display: block;
+
+}
+.parara2{
+
+    color: #fff;
+}
+
+.column0{
+    display: flex;
+}
+.parara2{
+
+
+    margin: 30px  50px   0 650px;
+  font-size: x-large;
+  line-height: 50px;
+}
+audio {
+    width: 200px;
+    height: 40px;
+  background-attachment: fixed;
+  background-color:whitesmoke;
+   background-repeat: no-repeat;
+   background-position: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+.son3{
+
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 50px;
+}
+  .son4{
+
+    color: #fff;
+   
+    line-height: 25px  ;
+margin: 30px ;
+
+  }
+  .xscape{
+height: 400px;
+width: 500px;
+    background-image: url(../Ressources/images/xscape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    border: none; 
+    transition: filter 0.3s ease;
+  }
+  .xscape:hover{
+    filter: brightness(70%);
+
+
+  }
+  .imgxscape{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -500px;
+  }
+  .listealbum{
+
+
+    color: #fff;
+   font-size: 25px;
+   font-weight: bold;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin: 50px 200px;
+  }
+ul{
+
+    list-style-type: none;
+}

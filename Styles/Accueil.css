@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../Ressources/images/R.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  font-family: "Poppins";
+  background-attachment: fixed;
+}
+header {
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    height: 100px;
+    
+    
+  }
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+ul li a {
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transform: scale(1.2);
+}
+a:link::after{
+color: #fff;
+}
+
+
+.li1:hover:hover {
+  transform: scale(1.2);
+}
+.li2:hover {
+  transform: scale(1.2);
+}
+.li3:hover {
+  transform: scale(1.2);
+}
+
+
+
+.imgnav{
+background-image: url(../Ressources/images/image-removebg-preview.png);
+height: 50px;
+width: 50px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border: none;
+background-color: #fff;
+
+}
+
+.P4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    gap: 7px;
+  }
+  #list ul {
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+  display: flex;
+  gap: 200px;
+
+margin:  0 0 0 -200px;
+  }
+  div ul li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    
+  }
+  .P1 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 6px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--Blanc, #fff);
+    border: none;
+  }
+  .P1:hover{
+
+    transform: scale(1.2);
+  }
+  .P3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 7px;
+  }
+  
+  .J3{
+
+    color: #fff;
+    font-size: 70px;
+    font-family: "Poppins";
+    font-weight: 100;
+  }
+  .J4{
+
+color: #fff;
+font-size: 20px;
+margin: 0 0 0 150px;
+  }
+ .boite{
+margin-top: 100px;
+height: 600px;
+width: 600px;
+
+  background-image: url(../Ressources/images/The_Jacksons_1976_2.jpg);
+  background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+border-radius: 40px;
+
+ }
+ .boite:hover {
+  filter: brightness(70%); 
+  transform: scale(1.05)
+}
+ .J1{
+
+display: flex;  
+justify-content: space-around;
+align-items: center;
+
+ }
+ 
+ .footerdark {
+ padding: 50px 0;
+  width: 100%;
+  color:#f0f9ff;
+  background-image: url(../Ressources/images/imagefooter.jpg);
+  margin-top: 20%;
+ 
+}
+ .mjsite{
+
+color: #fff;
+display: flex;
+justify-content: center;
+margin: -40px;
+
+ }
+.para{
+
+margin: 75px 0 0 75px;
+  color: #fff;
+  line-height: 10px;
+
+
+}
+ 
+.para1 {
+  word-spacing: 7px;
+}
+.para2 {
+  word-spacing: 7px;
+}
+.diff{
+
+  color: #63175e;
+}

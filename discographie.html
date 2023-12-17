@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MJ</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/discographie.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"> </script>
+</head>
+
+<body>
+    <header>
+
+        <div class="P4">
+            <span class="imgnav"></span>
+            <p>Lies sprint, but the <br>truth runs marathons</p>
+        </div>
+
+        <div id="list">
+            <ul>
+                <li class="li1"><a href="MJ.html">Acceuil</a></li>
+                <li class="li2"><a href="biographie.html">Biographie</a></li>
+                <li class="li3"><a href="discographie.html">Discographie</a></li>
+
+            </ul>
+        </div>
+        <div>
+            <div class="P3 margin">
+                <button class="P1">Contact</button>
+                <img  src="../Ressources/images/chevron-right-solid2.svg" alt=""  />
+            </div>
+        </div>
+        <script>
+            const scrollButton = document.querySelector('.P1');
+
+            scrollButton.addEventListener('click', () => {
+                const footer = document.querySelector('footer');
+                footer.scrollIntoView({ behavior: 'smooth' });
+            });
+        </script>
+    </header>
+
+    <div class="column0">
+        <div class="column1">
+            <p class="parara1">
+                -Avant sa carrière en solitaire, Mickael Jackson était le chanteur <br> principale des Jackson 5,un
+                groupe de musique familiale <br> composé de lui et ses frères
+            </p>
+            <div class="son">
+                <ul>
+                    <li class="son1"> <audio controls src="../Ressources/Son/Jackson_5_-_I_Want_You_Back.mp3"></audio
+                            class="son2"> I Want You Back </li>
+                    <li class="son1"> <audio controls src="../Ressources/Son/Jackson_5_-_Frosty_The_Snowman.mp3"></audio
+                            class="son2"> Frosty The Snowman </li>
+                    <li class="son1"> <audio controls src="../Ressources/Son/Jackson_5_-_ABC (1).mp3"></audio
+                            class="son2"> ABC </li>
+                    <li class="son1"> <audio controls
+                            src="../Ressources/Son/Jackson_5_-_Someday_at_Christmas (1).mp3"></audio class="son2">
+                        Someday at Christmas </li>
+
+                </ul>
+
+            </div>
+            <div>
+                <img class="j5" alt="">
+            </div>
+
+        </div>
+        <div class="column2">
+
+
+            <p class="parara2">Micheal Jackson et les Jackson 5 ont aussi fait plusieurs Album tel que Thriller , Xscape
+                , ou encore Scream. </p>
+
+            <div class="son3">
+                <ul>
+                    <div class="son4">
+                        <li> Album_Thriller<audio controls
+                                src="../Ressources/Son/onlymp3.to - Michael Jackson Wanna Be Startin Somethin Audio -1XMvPTFzgVU-192k-1702823316.mp3"></audio>
+                        </li>
+                        <li> Album_Thriller<audio controls
+                                src="../Ressources/Son/onlymp3.to - Michael Jackson Baby Be Mine Official Audio -q3HD_2i5ddQ-192k-1702823382.mp3">
+                            </audio>
+                        </li>
+                    </div>
+                    <div class="son4">
+                        <li>Album_Xscape<audio controls
+                                src="../Ressources/Son/onlymp3.to - Michael Jackson Justin Timberlake Love Never Felt So Good Official Video -oG08ukJPtR8-192k-1702823452.mp3"></audio>
+                        </li>
+                        <li> Album_Xscape<audio controls
+                                src="../Ressources/Son/onlymp3.to - Michael Jackson Chicago Official Audio -Y_8mUx4VOmo-192k-1702823497.mp3"></audio>
+                        </li>
+                    </div>
+                    <div class="son4">
+                        <li>Album_Scream<audio controls
+                                src="../Ressources/Son/onlymp3.to - The Jacksons This Place Hotel a.k.a. Heartbreak Hotel Audio -Zg5AIaduI1E-192k-1702823548.mp3"></audio>
+                        </li>
+                        <li> Album_Scream<audio controls
+                                src="../Ressources/Son/onlymp3.to - Michael Jackson Thriller Official Video Shortened Version -4V90AmXnguw-192k-1702823559.mp3"></audio>
+                        </li>
+                    </div>
+
+
+
+                </ul>
+
+            </div>
+            <div class="imgxscape">
+                <span class="xscape"></span>
+            </div>
+            <div class="listealbum">
+                <ul><li>Albums :</li>
+                    <li> 2013. Michael Jackson: The Complete Remix Suite</li>
+                    <li> 2011. Immortal.</li>
+                    <li>2010. Michael.</li>
+                    <li>1995. History: Past, Present and Future - Book I.</li>
+                    <li>1991. Dangerous.</li>
+                    <li> 1982. Thriller.</li>
+                    <li> 1981. One Day in Your Life.</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--   <py-scipt>
+        def wallis(n) :
+            pi = 2
+            for i in range(1,n):
+                pi *= 4 * i ** 2 / (4 * i ** 2 - 1)
+            return pi
+        pi = wallis(100000)
+        s = f"π est approximativement {pi:.3f}"
+        print(s)
+    </py-scipt>
+ -->
+
+
+
+    <div class="footerborder">
+        <footer class="footerdark">
+            <div>
+                <p class="mjsite">Micheal Jackson Site </p>
+
+
+            </div>
+            <div class="para">
+                <p class="para1">Fait par THIERY NOAH <a class="diff"
+                        href="https://www.linkedin.com/in/noah-thiery-3a720529a/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BEQR4DLcDS3yDPyd8h7GTLA%3D%3D">Linkedin</a>
+                </p>
+                <P class="para2">TCHUGOMTSEU ILAN TAMTA <a class="diff"
+                        href="https://www.linkedin.com/in/ylan-tamta-tchugomtseu-5199aa299?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEg6bGUBXdPiU4gpr6tbhBg2xuv1FUEu1FM&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B4fCNjbHKRE2BYSiMgOacAw%3D%3D">Linkedin</a>
+                </P>
+            </div>
+
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
